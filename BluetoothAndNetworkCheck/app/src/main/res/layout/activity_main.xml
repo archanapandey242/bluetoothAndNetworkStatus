@@ -15,15 +15,16 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="vertical"
-            tools:ignore="UselessParent">
+            tools:ignore="UselessParent"
+            android:background="@color/colorAccent">
             <TextView
-                android:layout_width="200dp"
+                android:layout_width="fill_parent"
                 android:layout_height="100dp"
-                android:gravity="start"
+                android:gravity="center"
                 android:text="Bluetooth"
                 android:textSize="30sp"
                 android:textColor="@color/colorPrimaryDark"
-                android:textAlignment="textStart"/>
+                />
             <ToggleButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -49,13 +50,14 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="vertical"
-            tools:ignore="UselessParent">
+            tools:ignore="UselessParent"
+            >
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="100dp"
-                android:gravity="start"
                 android:text="Internet Connection"
                 android:textSize="30sp"
+                android:gravity="center"
                 android:textColor="@color/colorPrimaryDark" />
             <ToggleButton
                 android:layout_width="wrap_content"
